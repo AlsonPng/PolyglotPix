@@ -1,5 +1,18 @@
-![image](https://github.com/user-attachments/assets/a8e9afbb-578a-479e-a64b-c3296e74160e)
-This is a Flask app that uses easyocr to read text on images and translates it, using the MarianMTModel, based on user-input source and target languages.
+# PolyglotPix
 
-To download dependencies, simply run the following command in the PolyglotPix folder:
-pip install -r .\requirements.txt
+PolyglotPix is a Flask app that uses **easyOCR** to read text from images and **MarianMTModel** to translate it between selected languages.
+
+## Setup
+
+1. Install dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+
+## Usage
+
+1. **Run the app**:
+
+   ```bash
+   python app.py
+2. Select source and target languages, then upload an image.
